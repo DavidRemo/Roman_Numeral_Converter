@@ -45,18 +45,18 @@ function convertToRoman(num) {
   let accumulator = '';  
   
   //loop through lookup table  
-  for (const key in lookupTable){ 
-    const numberValue = lookupTable[key];  
-    console.log(key, numberValue);  
-    //while currentNumber <= num, then subtract currentNumber from num. Add symbol to accumulator  
-    while (numberValue <= num){  
-      num -= numberValue;  
-      accumulator += key;  
-    }  
-  }  
+  for (const key in lookupTable){  
+    &ensp; const numberValue = lookupTable[key];  
+    &ensp; console.log(key, numberValue);  
+    &ensp; //while currentNumber <= num, then subtract currentNumber from num. Add symbol to accumulator  
+    &ensp; while (numberValue <= num){  
+      &ensp; num -= numberValue;  
+      &ensp; accumulator += key;  
+    &ensp; }  
+  &ensp; }  
   
-  //return accumulator  
- return accumulator;  
+  &ensp; //return accumulator  
+ &ensp; return accumulator;  
 }  
   
 convertToRoman(36);
