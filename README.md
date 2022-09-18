@@ -45,7 +45,7 @@ function convertToRoman(num) {
   let accumulator = '';  
   
   //loop through lookup table  
-  for (const key in lookupTable){  
+  for (const key in lookupTable){ 
     const numberValue = lookupTable[key];  
     console.log(key, numberValue);  
     //while currentNumber <= num, then subtract currentNumber from num. Add symbol to accumulator  
