@@ -53,7 +53,7 @@ function convertToRoman(num) {
     &emsp; num -= numberValue;  
     &emsp; accumulator += key;  
     &ensp; }  
-  &ensp; }  
+  &nbsp; }  
   
   &ensp; //return accumulator  
  &ensp; return accumulator;  
